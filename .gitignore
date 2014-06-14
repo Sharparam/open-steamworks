@@ -3,3 +3,6 @@ Backup
 *.opensdf
 UpgradeLog.*
 _UpgradeReport_Files
+
+/Steam4NET2/Steam4NET2/Steam4Intermediate/bin
+/Steam4NET2/Steam4NET2/Steam4Intermediate/obj
