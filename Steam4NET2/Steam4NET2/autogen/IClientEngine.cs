@@ -411,7 +411,7 @@ namespace Steam4NET
 		[UnmanagedFunctionPointer(CallingConvention.ThisCall)] private delegate IntPtr NativeGetIClientVRS( IntPtr thisptr, string pchVersion );
 		public TClass GetIClientVR<TClass>(  ) where TClass : InteropHelp.INativeWrapper, new()
 		{
-			return InteropHelp.CastInterface<TClass>( this.GetFunction<NativeGetIClientVRS>( this.Functions.GetIClientVR55 )( this.ObjectAddress ) ); 
+			return InteropHelp.CastInterface<TClass>( this.GetFunction<NativeGetIClientVRS>( this.Functions.GetIClientVR55 )( this.ObjectAddress, InterfaceVersions.GetInterfaceIdentifier( typeof( TClass ) ) ) ); 
 		}
 		
 	};
