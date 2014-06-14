@@ -4,5 +4,7 @@ Backup
 UpgradeLog.*
 _UpgradeReport_Files
 
+/Steam4NET2/Steam4NET2/bin
+/Steam4NET2/Steam4NET2/obj
 /Steam4NET2/Steam4NET2/Steam4Intermediate/bin
 /Steam4NET2/Steam4NET2/Steam4Intermediate/obj
