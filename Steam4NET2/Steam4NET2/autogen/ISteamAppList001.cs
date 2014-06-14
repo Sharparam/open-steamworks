@@ -27,7 +27,7 @@ namespace Steam4NET
 		}
 		
 		[UnmanagedFunctionPointer(CallingConvention.ThisCall)] private delegate Int32 NativeGetInstalledAppsUU( IntPtr thisptr, ref UInt32 puUnk, UInt32 uUnk );
-		public Int32 GetInstalledApps( ref UInt32 puUnk, UInt32 uUnk ) 
+		public Int32 GetInstalledApps( ref UInt32[] puUnk, UInt32 uUnk ) 
 		{
 			return this.GetFunction<NativeGetInstalledAppsUU>( this.Functions.GetInstalledApps1 )( this.ObjectAddress, ref puUnk, uUnk ); 
 		}

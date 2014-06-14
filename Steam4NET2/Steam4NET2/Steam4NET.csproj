@@ -107,8 +107,12 @@
     <Compile Include="autogen\IClientMatchmakingServers.cs" />
     <Compile Include="autogen\IClientNetworkDeviceManager.cs" />
     <Compile Include="autogen\IClientNetworking.cs" />
+    <Compile Include="autogen\IClientProductBuilder.cs" />
     <Compile Include="autogen\IClientRemoteStorage.cs" />
     <Compile Include="autogen\IClientScreenshots.cs" />
+    <Compile Include="autogen\IClientShortcuts.cs" />
+    <Compile Include="autogen\IClientStreamClient.cs" />
+    <Compile Include="autogen\IClientUGC.cs" />
     <Compile Include="autogen\IClientUser.cs" />
     <Compile Include="autogen\IClientUserStats.cs" />
     <Compile Include="autogen\IClientUtils.cs" />
@@ -118,11 +122,13 @@
     <Compile Include="autogen\ISteam006.cs" />
     <Compile Include="autogen\ISteam2Bridge001.cs" />
     <Compile Include="autogen\ISteam2Bridge002.cs" />
+    <Compile Include="autogen\ISteamAppList001.cs" />
     <Compile Include="autogen\ISteamApps001.cs" />
     <Compile Include="autogen\ISteamApps002.cs" />
     <Compile Include="autogen\ISteamApps003.cs" />
     <Compile Include="autogen\ISteamApps004.cs" />
     <Compile Include="autogen\ISteamApps005.cs" />
+    <Compile Include="autogen\ISteamApps006.cs" />
     <Compile Include="autogen\ISteamAppTicket001.cs" />
     <Compile Include="autogen\ISteamBilling001.cs" />
     <Compile Include="autogen\ISteamBilling002.cs" />
@@ -148,6 +154,7 @@
     <Compile Include="autogen\ISteamFriends011.cs" />
     <Compile Include="autogen\ISteamFriends012.cs" />
     <Compile Include="autogen\ISteamFriends013.cs" />
+    <Compile Include="autogen\ISteamFriends014.cs" />
     <Compile Include="autogen\ISteamGameCoordinator001.cs" />
     <Compile Include="autogen\ISteamGameServer002.cs" />
     <Compile Include="autogen\ISteamGameServer003.cs" />
@@ -159,6 +166,7 @@
     <Compile Include="autogen\ISteamGameServer009.cs" />
     <Compile Include="autogen\ISteamGameServer010.cs" />
     <Compile Include="autogen\ISteamGameServer011.cs" />
+    <Compile Include="autogen\ISteamGameServer012.cs" />
     <Compile Include="autogen\ISteamGameServerStats001.cs" />
     <Compile Include="autogen\ISteamGameStats001.cs" />
     <Compile Include="autogen\ISteamHTTP001.cs" />
@@ -175,6 +183,7 @@
     <Compile Include="autogen\ISteamMatchmaking009.cs" />
     <Compile Include="autogen\ISteamMatchmakingServers001.cs" />
     <Compile Include="autogen\ISteamMatchmakingServers002.cs" />
+    <Compile Include="autogen\ISteamMusic001.cs" />
     <Compile Include="autogen\ISteamNetworking001.cs" />
     <Compile Include="autogen\ISteamNetworking002.cs" />
     <Compile Include="autogen\ISteamNetworking003.cs" />
@@ -193,6 +202,7 @@
     <Compile Include="autogen\ISteamRemoteStorage010.cs" />
     <Compile Include="autogen\ISteamRemoteStorage012.cs" />
     <Compile Include="autogen\ISteamScreenshots001.cs" />
+    <Compile Include="autogen\ISteamUGC001.cs" />
     <Compile Include="autogen\ISteamUser004.cs" />
     <Compile Include="autogen\ISteamUser005.cs" />
     <Compile Include="autogen\ISteamUser006.cs" />
@@ -223,6 +233,7 @@
     <Compile Include="autogen\ISteamUtils004.cs" />
     <Compile Include="autogen\ISteamUtils005.cs" />
     <Compile Include="autogen\ISteamUtils006.cs" />
+    <Compile Include="autogen\ISteamUtils007.cs" />
     <Compile Include="autogen\MatchmakingCommon.cs" />
     <Compile Include="autogen\MatchMakingKeyValuePair.cs" />
     <Compile Include="autogen\MatchmakingServersCommon.cs" />
@@ -256,6 +267,7 @@
     <Compile Include="autogen\TSteamSubscriptionReceipt.cs" />
     <Compile Include="autogen\TSteamSubscriptionStats.cs" />
     <Compile Include="autogen\TSteamUpdateStats.cs" />
+    <Compile Include="autogen\UGCCommon.cs" />
     <Compile Include="autogen\UserCommon.cs" />
     <Compile Include="autogen\UserStatsCommon.cs" />
     <Compile Include="autogen\UtilsCommon.cs" />
